@@ -18,3 +18,4 @@ class dashboardController extends Controller
         return view('backend.dashboard.dashboard',compact('donate','requsting','user','view','users'));
     }
 }
+  

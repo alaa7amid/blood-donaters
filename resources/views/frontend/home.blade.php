@@ -1,7 +1,7 @@
 @extends('frontend.master')
 
 @section('content')
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+{{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -14,8 +14,8 @@
                 <p class="bounceInLeft">Your blood donation could be the difference between life and death. At [Site Name], we work to make the blood donation process easier and safer for both donors and those in need of blood. Our goal is to gather as many blood donors as possible to ensure a continuous supply of blood for hospitals and medical centers, and to act as a bridge between individuals willing to donate and those in need of blood.</p>
 
                 <div class="vbh">
-                    <div class="btn btn-success bounceInUp"><a href="{{route('donateInfo')}}"> Donate blood </a></div>
-                    <div class="btn btn-success bounceInUp"><a href="{{route('requestingPage')}}">Requesting</a></div>
+                    <div class="btn btn-success bounceInUp"><a href="{{route('donateInfo')}}"> Donate now </a></div>
+                    <div class="btn btn-success bounceInUp"><a href="{{route('requestingPage')}}">Requesting now</a></div>
                 </div>
             </div>
         </div>
@@ -27,8 +27,8 @@
                 <p class="bounceInLeft">At [Site Name], we understand that medical emergencies requiring blood can be overwhelming. That’s why we’re committed to providing a reliable platform where individuals or healthcare institutions can request the blood they urgently need. Our mission is to connect those in need with available blood donors, ensuring a timely response and helping to save lives in critical situations. We strive to make this process as simple and efficient as possible for both requesters and donors.</p>
 
                 <div class="vbh">
-                    <div class="btn btn-success bounceInUp"><a href="{{route('donateInfo')}}"> Donate blood </a></div>
-                    <div class="btn btn-success bounceInUp"><a href="{{route('requestingPage')}}">Requesting</a></div>
+                    <div class="btn btn-success bounceInUp"><a href="{{route('donateInfo')}}"> Donate now </a></div>
+                    <div class="btn btn-success bounceInUp"><a href="{{route('requestingPage')}}">Requesting now</a></div>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div> --}}
 @endsection
 
 @section('css')

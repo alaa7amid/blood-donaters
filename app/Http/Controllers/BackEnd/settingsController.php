@@ -17,7 +17,7 @@ class settingsController extends Controller
         $setting = setting::where('user_id',Auth::user()->id)->first();
         return view('backend.setting.index',compact('setting'));
     }
-
+ 
     /**
      * Show the form for creating a new resource.
      */

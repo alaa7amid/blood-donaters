@@ -2,7 +2,7 @@
 <html lang="en">
  
 {{-- section of head --}}
-@include('backend.layout.head')
+@include('backend.layout.head') 
 @yield('css')
   <body class="horizontal light  ">
     <div class="wrapper">
